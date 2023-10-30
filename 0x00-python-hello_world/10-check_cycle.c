@@ -1,3 +1,4 @@
+#include <lists.h>
 /**
  * check_cycle - function to sheck if there is a cycle in linked list
  *
