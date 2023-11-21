@@ -79,7 +79,7 @@ class Square:
     def my_print(self):
         """
         Public instance method that prints in stdout the square
-	, while printing spaces for the position of the square
+        while printing spaces for the position of the square
         """
         if self.__size == 0:
             print()
