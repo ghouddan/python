@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 """class called Rectangle"""
 
 
@@ -6,7 +7,7 @@ class Rectangle:
     """defines a rectangle """
 
     def __init__(self, width=0, height=0):
-        """ Method that initializes the instance
+        """initializes the instance
 
         Args:
             width: rectangle width
@@ -28,7 +29,7 @@ class Rectangle:
 
     @width.setter
     def width(self, value):
-        """ Method that defines the width
+        """defines the width
 
         Args:
             value: width
@@ -58,7 +59,7 @@ class Rectangle:
 
     @height.setter
     def height(self, value):
-        """ Method that defines the height
+        """defines the height
 
         Args:
             value: height
@@ -77,7 +78,7 @@ class Rectangle:
         self.__height = value
 
     def area(self):
-        """ returns the rectangle area """
+        """returns the rectangle area """
         return self.__width * self.__height
 
     def perimeter(self):
@@ -97,9 +98,7 @@ class Rectangle:
     def __repr__(self):
         """returns a string representation of the rectangle """
         return "Rectangle({}, {})".format(self.__width, self.__height)
-        
+
     def __del__(self):
-        """ Method that deletes an instance of Rectangle """
+        """deletes an instance of Rectangle """
         print("Bye rectangle...")
-        
-        
