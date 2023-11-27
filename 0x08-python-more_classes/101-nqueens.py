@@ -1,4 +1,5 @@
-mport sys
+#!/usr/bin/python3
+import sys
 
 
 def Safe(board, row, colomn):
