@@ -1,5 +1,5 @@
-       
-dule that defines a class called Rectangle"""
+#!/usr/bin/python3    
+"""class called Rectangle"""
 
 
 class Rectangle:
