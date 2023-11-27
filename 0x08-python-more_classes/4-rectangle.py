@@ -1,12 +1,12 @@
-#!/usr/bin/python3    
+#!/usr/bin/python3
 """class called Rectangle"""
 
 
 class Rectangle:
-    """defines a rectangle """
+    """ Empty class Rectangle that defines a rectangle """
 
     def __init__(self, width=0, height=0):
-        """initializes the instance
+        """ Method that initializes the instance
 
         Args:
             width: rectangle width
@@ -18,7 +18,7 @@ class Rectangle:
 
     @property
     def width(self):
-        """returns the value of the width
+        """ Method that returns the value of the width
 
         Returns:
             rectangle width
@@ -28,7 +28,7 @@ class Rectangle:
 
     @width.setter
     def width(self, value):
-        """defines the width
+        """ Method that defines the width
 
         Args:
             value: width
@@ -48,7 +48,7 @@ class Rectangle:
 
     @property
     def height(self):
-        """returns the value of the height
+        """ Method that returns the value of the height
 
         Returns:
             rectangle height
@@ -58,7 +58,7 @@ class Rectangle:
 
     @height.setter
     def height(self, value):
-        """defines the height
+        """ Method that defines the height
 
         Args:
             value: height
@@ -77,23 +77,23 @@ class Rectangle:
         self.__height = value
 
     def area(self):
-        """returns the rectangle area """
+        """ Method that returns the rectangle area """
         return self.__width * self.__height
 
     def perimeter(self):
-        """returns the rectangle perimeter """
+        """ Method that returns the rectangle perimeter """
         if self.__width == 0 or self.__height == 0:
             return 0
 
         return (self.__width + self.__height) * 2
 
     def __str__(self):
-        """returns a string that represents the rectangle """
+        """ Method that returns a string that represents the rectangle """
         if self.__width == 0 or self.__height == 0:
             return ""
 
         return "\n".join(["#" * self.__width for i in range(self.__height)])
 
     def __repr__(self):
-        """returns a string representation of the rectangle """
+        """ Method that returns a string representation of the rectangle """
         return "Rectangle({}, {})".format(self.__width, self.__height)
