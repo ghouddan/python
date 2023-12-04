@@ -30,6 +30,7 @@ class BaseGeometry:
         Exception: Always raises an exception when called.
         """
         raise Exception("area() is not implemented")
+
     @classmethod
     def integer_validator(self, name, value):
         """
