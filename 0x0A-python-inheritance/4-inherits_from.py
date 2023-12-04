@@ -13,7 +13,7 @@ def inherits_from(obj, a_class):
 
     Args:
         obj (any): object to check
-        a_class (any): class to check 
+        a_class (any): class to check
 
     Returns:
         bool: True if the object is an instance of a class that inherited from

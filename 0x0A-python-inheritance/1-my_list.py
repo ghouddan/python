@@ -4,9 +4,9 @@
 
 
 class MyList(list):
-   """Class inherits from list"""
+    """Class that inherits from list"""
     pass
 
     def print_sorted(self):
-        """Prints sorted list (ascending sort)"""
+        """Prints the list, but sorted (ascending sort)"""
         print(sorted(self))
