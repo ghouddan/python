@@ -8,7 +8,7 @@ Module for append_write method.
 
 def append_write(filename="", text=""):
     """
-    appends a string at the end of a text file (UTF8) return 
+    appends a string at the end of a text file (UTF8) return
     number of caracter
 
     Arguments:
